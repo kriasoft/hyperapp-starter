@@ -1,0 +1,27 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+# Environments
+.env
+
+# Dependencies
+node_modules/
+
+# Compiled output
+build/
+
+# Test coverage reports
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and IDEs
+.idea/
+
+# Misc
+.DS_Store
+Thumbs.db

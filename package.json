@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-static": "^5.0.0",
+    "source-map-support": "^0.5.6"
+  },
+  "devDependencies": {
+    "@hyperapp/render": "^2.0.0",
+    "hyperapp": "^1.2.6",
+    "hyperapp-tools": "^1.0.0"
+  },
+  "scripts": {
+    "start": "hyperapp-tools start",
+    "build": "hyperapp-tools build",
+    "test": "hyperapp-tools test",
+    "lint": "hyperapp-tools lint"
+  }
+}
