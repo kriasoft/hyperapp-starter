@@ -3,8 +3,16 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bolder;
 }
 
 .app {

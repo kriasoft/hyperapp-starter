@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "engines": {
     "node": ">=8.9.0"
   },
@@ -10,9 +11,12 @@
     "hyperapp-render": "^2.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "hyperapp-tools": "^2.0.0"
   },
   "scripts": {
+    "predeploy": "hyperapp-tools build --render",
+    "deploy": "gh-pages --dist build/public",
     "start": "hyperapp-tools start",
     "build": "hyperapp-tools build",
     "test": "hyperapp-tools test",
