@@ -37,26 +37,6 @@ npx hyperapp-create my-app
 It will create a directory called `my-app` inside the current folder.
 Inside that directory, it will generate the initial project structure and install the dependencies.
 
-_**Note:** [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
-comes with npm 5.2 and higher (since Node 8.2)._
-
-<details>
-<summary>If you use earlier version...</summary>
-
-Install `hyperapp-create` globally:
-
-```bash
-npm install -g hyperapp-create
-```
-
-Now you can run:
-
-```bash
-hyperapp-create my-app
-```
-
-</details>
-
 ## License
 
 Hyperapp Starter is MIT licensed.
