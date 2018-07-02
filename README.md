@@ -1,6 +1,5 @@
 # <img height="24" src="https://cdn.rawgit.com/frenzzy/hyperapp-starter/master/logo.svg"> Hyperapp Starter
 
-[![npm version](https://img.shields.io/npm/v/hyperapp-create.svg)](https://www.npmjs.com/package/hyperapp-create)
 [![npm downloads](https://img.shields.io/npm/dw/hyperapp-create.svg)](https://www.npmjs.com/package/hyperapp-create)
 [![slack chat](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com 'Join us')
 
