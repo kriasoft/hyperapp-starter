@@ -6,7 +6,7 @@
 Boilerplate and tooling for authoring modern web applications
 with [Hyperapp](https://hyperapp.js.org/) and [Node.js](https://nodejs.org/).
 
-- **Best practices** — The base is [HTML5 Boilerplate](https://html5boilerplate.com/) project
+- **Best practices** — The project is based on [HTML5 Boilerplate](https://html5boilerplate.com/)
   which is the product of years of iterative development and community knowledge.
 - **No build configuration** — Hassle-free updates for the whole toolchain with a single dependency.
 - **Isomorphic** — Write code once and run it on both client and server-side.
