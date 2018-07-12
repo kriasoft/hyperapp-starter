@@ -24,7 +24,8 @@ if (module.hot) {
 } else {
   // Launch the server
   const server = app.listen(process.env.PORT, () => {
-    process.stdout.write(`The server is running at http://localhost:${server.address().port}/\n`)
+    const { port } = server.address()
+    process.stdout.write(`The server is running at http://localhost:${port}/\n`)
   })
 }
 
