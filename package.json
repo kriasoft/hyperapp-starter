@@ -13,7 +13,7 @@
   "devDependencies": {
     "@hyperapp/render": "^2.1.0",
     "hyperapp": "^1.2.6",
-    "hyperapp-tools": "^1.0.2"
+    "hyperapp-tools": "^1.1.0"
   },
   "scripts": {
     "start": "hyperapp-tools start",
