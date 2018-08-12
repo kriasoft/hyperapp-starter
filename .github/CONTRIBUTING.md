@@ -1,6 +1,6 @@
 # Contributing to Hyperapp Starter
 
-♥ [Hyperapp Starter](https://github.com/frenzzy/hyperapp-starter) and want to
+♥ [Hyperapp Starter](https://github.com/kriasoft/hyperapp-starter) and want to
 get involved? Thanks! We're actively looking for folks interested in helping
 out and there are plenty of ways you can help!
 
@@ -14,7 +14,7 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/frenzzy/hyperapp-starter/issues) is
+The [issue tracker](https://github.com/kriasoft/hyperapp-starter/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -29,7 +29,7 @@ restrictions:
   [`Koa`](https://github.com/koajs/koa),
   [`Hyperapp`](https://github.com/hyperapp/hyperapp),
   [`Hyperapp Render`](https://github.com/hyperapp/render) or
-  [`Hyperapp Tools`](https://github.com/frenzzy/hyperapp-tools)
+  [`Hyperapp Tools`](https://github.com/kriasoft/hyperapp-tools)
   (open them in their respective repositories).
 
 <a name="bugs"></a>
@@ -108,7 +108,7 @@ included in the project:
    # Navigate to the newly cloned directory
    cd hyperapp-starter
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/frenzzy/hyperapp-starter.git
+   git remote add upstream https://github.com/kriasoft/hyperapp-starter.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -148,4 +148,4 @@ included in the project:
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project
 owners to license your work under the terms of the
-[MIT License](https://github.com/frenzzy/hyperapp-starter/blob/master/LICENSE.md).
+[MIT License](https://github.com/kriasoft/hyperapp-starter/blob/master/LICENSE.md).

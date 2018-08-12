@@ -1,6 +1,6 @@
-# <img height="24" src="https://cdn.rawgit.com/frenzzy/hyperapp-starter/master/logo.svg"> Hyperapp Starter
+# <img height="24" src="https://cdn.rawgit.com/kriasoft/hyperapp-starter/master/logo.svg"> Hyperapp Starter
 
-[![npm downloads](https://img.shields.io/npm/dw/hyperapp-create.svg)](https://www.npmjs.com/package/hyperapp-create)
+[![npm downloads](https://img.shields.io/npm/dw/create-hyperapp-starter.svg)](https://www.npmjs.com/package/create-hyperapp-starter)
 [![slack chat](https://hyperappjs.herokuapp.com/badge.svg)](https://hyperappjs.herokuapp.com 'Join us')
 
 Boilerplate and tooling for authoring modern web applications
@@ -13,7 +13,7 @@ with [Hyperapp](https://hyperapp.js.org/) and [Node.js](https://nodejs.org/).
 
 ---
 
-This project was bootstrapped with [Hyperapp Starter](https://github.com/frenzzy/hyperapp-starter)
+This project was bootstrapped with [Hyperapp Starter](https://github.com/kriasoft/hyperapp-starter)
 ([support](https://hyperappjs.herokuapp.com)).
 
 ## Prerequisites
@@ -30,13 +30,36 @@ This project was bootstrapped with [Hyperapp Starter](https://github.com/frenzzy
 To create a new app, run a single command:
 
 ```bash
-npx hyperapp-create my-app
+npm init hyperapp-starter
 ```
 
-It will create a directory called `my-app` inside the current folder.
-Inside that directory, it will generate the initial project structure and install the dependencies.
+It will generate the initial project structure inside the current directory
+and install the dependencies.
+
+Also you can directly specify the project directory if you want to:
+
+```bash
+npm init hyperapp-starter <project-directory>
+```
+
+## Basic structure
+
+```bash
+.
+├── build/              # Compiled output
+├── coverage/           # Test coverage reports
+├── node_modules/       # 3rd-party libraries and utilities
+├── public/             # Static files such as favicon.ico etc.
+├── src/                # Application source code
+│   ├── app.js          # Universal (Isomorphic) application
+│   ├── index.js        # Client-side rendering, e.g. app(state, actions, view, container)
+│   └── server.js       # Server-side rendering, e.g. renderToString(view, state, actions)
+├── .env                # Environment variables (optional)
+├── package.json        # The list of project dependencies + NPM scripts
+└── README.md           # Getting started guide
+```
 
 ## License
 
 Hyperapp Starter is MIT licensed.
-See [LICENSE](https://github.com/frenzzy/hyperapp-starter/blob/master/LICENSE.md).
+See [LICENSE](https://github.com/kriasoft/hyperapp-starter/blob/master/LICENSE.md).

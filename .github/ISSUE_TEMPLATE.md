@@ -16,7 +16,7 @@
   [`Koa`](https://github.com/koajs/koa),
   [`Hyperapp`](https://github.com/hyperapp/hyperapp),
   [`Hyperapp Render`](https://github.com/hyperapp/render) or
-  [`Hyperapp Tools`](https://github.com/frenzzy/hyperapp-tools)
+  [`Hyperapp Tools`](https://github.com/kriasoft/hyperapp-tools)
   (open them in their respective repositories).
 
 ## Bug reports

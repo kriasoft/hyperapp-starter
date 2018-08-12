@@ -9,4 +9,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Initial public release.
 
-[unreleased]: https://github.com/frenzzy/hyperapp-starter/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/kriasoft/hyperapp-starter/compare/v1.0.0...HEAD
