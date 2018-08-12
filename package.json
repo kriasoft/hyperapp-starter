@@ -6,13 +6,10 @@
     "node": ">=8.3"
   },
   "dependencies": {
-    "koa": "^2.5.2",
-    "koa-static": "^5.0.0",
-    "source-map-support": "^0.5.8"
+    "hyperapp": "^1.2.8",
+    "hyperapp-render": "^2.1.0"
   },
   "devDependencies": {
-    "@hyperapp/render": "^2.1.0",
-    "hyperapp": "^1.2.8",
     "hyperapp-tools": "^1.2.2"
   },
   "scripts": {
