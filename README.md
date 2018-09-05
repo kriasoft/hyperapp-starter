@@ -19,7 +19,7 @@ This project was bootstrapped with [Hyperapp Starter](https://github.com/kriasof
 ## Prerequisites
 
 - MacOS, Windows, or Linux
-- [Node.js](https://nodejs.org/) v8.3 or newer
+- [Node.js](https://nodejs.org/) v8.9.0 or newer
 - Text editor or [IDE](https://en.wikipedia.org/wiki/IDE)
   (e.g. [VS Code](https://code.visualstudio.com/) +
   [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
@@ -51,13 +51,45 @@ npm init hyperapp-starter <project-directory>
 ├── node_modules/       # 3rd-party libraries and utilities
 ├── public/             # Static files such as favicon.ico etc.
 ├── src/                # Application source code
-│   ├── app.js          # Universal (Isomorphic) application
+│   ├── app.js          # Universal (Isomorphic) application entry point
 │   ├── index.js        # Client-side rendering, e.g. app(state, actions, view, container)
 │   └── server.js       # Server-side rendering, e.g. renderToString(view, state, actions)
 ├── .env                # Environment variables (optional)
 ├── package.json        # The list of project dependencies + NPM scripts
 └── README.md           # Getting started guide
 ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode with "live reload".
+Uses `src/index.js` and `src/server.js` files as entry points
+for client-side and server-side apps.
+
+### `npm test`
+
+Launches the test runner. It will look for test files with `.test.js` or `.spec.js` suffix.
+Also you can use any [cli options](https://jestjs.io/docs/en/cli#options)
+which [Jest](https://jestjs.io/) supports.
+
+### `npm run lint`
+
+Finds problematic patterns in code using [ESLint](https://eslint.org/)
+and [stylelint](https://stylelint.io/).
+Using `--fix` option you can automatically fix some of them
+and also format files using [Prettier](https://prettier.io/).
+
+### `npm run build`
+
+Builds the app for production to the build folder.
+It correctly bundles, optimizes and minifys the build for the best performance
+and the filenames include the hashes for a long term caching.
+Using `--render` option you can generate html files for a static site hosting.
+
+See [Hyperapp Tools](https://github.com/kriasoft/hyperapp-tools) for more.
 
 ## License
 
