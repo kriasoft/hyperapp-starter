@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=8.3"
+    "node": ">=8.9.0"
   },
   "dependencies": {
     "hyperapp": "^1.2.8",
     "hyperapp-render": "^2.1.0"
   },
   "devDependencies": {
-    "hyperapp-tools": "^1.2.2"
+    "hyperapp-tools": "^2.0.0"
   },
   "scripts": {
     "start": "hyperapp-tools start",

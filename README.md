@@ -4,7 +4,7 @@ This project was bootstrapped with [Hyperapp Starter](https://github.com/kriasof
 ## Prerequisites
 
 - MacOS, Windows, or Linux
-- [Node.js](https://nodejs.org/) v8.3 or newer
+- [Node.js](https://nodejs.org/) v8.9.0 or newer
 - Text editor or [IDE](https://en.wikipedia.org/wiki/IDE)
   (e.g. [VS Code](https://code.visualstudio.com/) +
   [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
@@ -27,7 +27,7 @@ npm start
 ├── node_modules/       # 3rd-party libraries and utilities
 ├── public/             # Static files such as favicon.ico etc.
 ├── src/                # Application source code
-│   ├── app.js          # Universal (Isomorphic) application
+│   ├── app.js          # Universal (Isomorphic) application entry point
 │   ├── index.js        # Client-side rendering, e.g. app(state, actions, view, container)
 │   └── server.js       # Server-side rendering, e.g. renderToString(view, state, actions)
 ├── .env                # Environment variables (optional)
