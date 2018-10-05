@@ -6,11 +6,11 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
-    "hyperapp": "^1.2.8",
+    "hyperapp": "^1.2.9",
     "hyperapp-render": "^2.1.0"
   },
   "devDependencies": {
-    "hyperapp-tools": "^2.0.0"
+    "hyperapp-tools": "^2.1.0"
   },
   "scripts": {
     "start": "hyperapp-tools start",
